@@ -163,11 +163,23 @@ a:hover {
     font-size: 1.8em;
   }
 
-  .container {
+  a.btn.btn-navbar {
+    display: block;
+    margin-top: 0;
+    right: 41px;
+    position: fixed;
+    width: 36px;
+  }
+
+ .nav-collapse .nav {
     display: none;
   }
 
-  .btn .btn-navbar {
+  .icon-bar {
     display: block;
+    padding: 2px;
+    background-color: #333;
+    margin-bottom: 4px;
+    border-radius: 20px;
   }
 }
