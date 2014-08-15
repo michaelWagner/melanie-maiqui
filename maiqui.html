@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="no-skrollr">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>Melanie Maiqui</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/maiqui.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+  </script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+  </script>
+
+  <style type="text/css">
+    .navbar .nav > li > a {
+      text-shadow:none;
+      font-size: 1.1em;
+      /*color:#333333;*/
+    }
+
+    a {
+      color: #777777;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+    We position the images fixed and therefore need to place them outside of #skrollr-body.
+    We will then use data-anchor-target to display the correct image matching the current section (.gap element).
+  -->
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#about + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/maiqui-logo.svg)"
+      data-anchor-target="#about + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+    <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+  </div>
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#portfolio + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/prefab_brouchure_black_cover_o.jpg)"
+      data-anchor-target="#portfolio + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+  </div>
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#sketches + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/brown_architecture_web_o.jpg)"
+      data-anchor-target="#sketches + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+  </div>
+
+  <div id="skrollr-body">
+    <div class="header" id="about"
+         style="padding-bottom:-10px;">
+      <div class="name-plate" style="font-size:3em; line-height:38px;">Melanie Maiqui</div>
+      <div class="navbar navbar-fixed-top">
+        <!-- <div class="navbar-inner"> -->
+          <div class="container"
+               style="width:inherit; float:right">
+            <a class="btn btn-navbar"
+               data-toggle="collapse"
+               data-target=".nav-collapse"
+               style="margin-top:-37px; position:fixed;">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse">
+              <ul class="nav">
+                <li><a class="link" href="contact.html">Contact</a></li>
+                <li><a class="link" href="gallery.html">Gallery</a></li>
+                <li><a class="link" href="about.html">About</a></li>
+              </ul><!-- /.nav -->
+            </div><!--/.nav-collapse -->
+          </div><!-- /.container -->
+      <!--   </div> --><!-- /.navbar-inner -->
+      </div><!-- /.navbar -->
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/maiqui-logo.svg);"></div>
+    <div class="content" id="portfolio">
+      <p>A Los Angeles Native, Melanie's designs have graced the pages of several influential publications, including Architectural Digest and Dwell. Her style is noted for it's use of clean lines and simple aesthetic.</p>
+
+      <p>Landjaeger spare ribs chicken ball tip, filet mignon frankfurter ribeye tenderloin corned beef. Strip steak boudin pork loin, chicken turkey ball tip beef ribs ground round shank ham hock. Kevin capicola beef, chuck pork chop shoulder brisket doner meatloaf shank ham hock tenderloin. Chuck ham hock short ribs ground round sausage prosciutto shoulder bacon andouille tri-tip beef biltong filet mignon chicken. Pork belly andouille shank, bacon sausage meatloaf bresaola pork chop short ribs t-bone. Ham hock salami porchetta bacon beef turkey, strip steak kielbasa pancetta brisket meatball t-bone.</p>
+
+      <p>Chicken pancetta capicola chuck, turkey meatball jerky frankfurter kielbasa ball tip bacon ground round. Beef ribs brisket meatloaf short ribs landjaeger shankle spare ribs sausage, pancetta swine sirloin flank. Tail shank chuck pancetta, ham meatloaf short ribs sausage rump turkey kevin pork chop landjaeger. Doner boudin short ribs t-bone, jerky shankle bresaola drumstick. Strip steak shank spare ribs boudin doner short ribs. Boudin prosciutto jowl tenderloin tongue beef ribs, short ribs salami short loin strip steak ham jerky. Shank pancetta beef ribs, corned beef ham hock pork belly drumstick tail bresaola chuck.</p>
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/prefab_brouchure_black_cover_o.jpg);"></div>
+    <div class="color-slide" data-0="transform:translate(0,100%);" data-100p="transform:translate(0,0%)" data-_box-100p="" data-_box-200p="transform:translate(0,-100%)">
+      <div class="box" data-100p="width:0%;" data-_box-100p="width:100%"></div>
+    </div>
+    <div class="content" id="sketches">
+      Sketches
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/brown architecture_web_o.jpg);"></div>
+    <br>
+    <div class="content" id="done" style="background-color:#000000;">
+    </div>
+  </div>
+
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+  <script type="text/javascript">
+  skrollr.init({
+    smoothScrolling: false,
+    mobileDeceleration: 0.004
+  });
+  </script>
+</body>
+
+</html>
