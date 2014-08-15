@@ -29,6 +29,7 @@ ul {
   width: 45%;
   font-size: 2.6em;
   line-height:38px;
+  min-width: 250px;
 }
 
 .container {
@@ -60,6 +61,11 @@ a:hover {
   text-decoration: none;
   display: inline;
 }
+
+/*.icon-bar {
+  width: 100px;
+  padding: 10px;
+}*/
 
 #portfolio {
   padding: 3% 28%;
@@ -150,4 +156,18 @@ a:hover {
 
 #done {
   height:10%;
+}
+
+@media screen and (max-width: 700px) {
+  .name-plate {
+    font-size: 1.8em;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .btn .btn-navbar {
+    display: block;
+  }
 }
