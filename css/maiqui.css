@@ -16,7 +16,54 @@ body {
 }
 
 p {
-  margin:1em 0;
+  margin: 1em 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.name-plate {
+  width: 45%;
+  font-size: 2.6em;
+  line-height:38px;
+}
+
+.container {
+  width: 300px;
+  margin-top: -30px;
+  float: right;
+}
+
+.navbar .nav > li > a {
+  text-shadow:none;
+  font-size: 1.1em;
+  margin: 0 7%;
+}
+
+a {
+  color: #777777;
+}
+
+a:hover {
+  color: #444444;
+}
+
+.nav li {
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  display: inline;
+}
+
+#portfolio {
+  padding: 3% 28%;
+  text-align: center;
 }
 
 .parallax-image-wrapper {
