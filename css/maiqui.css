@@ -171,6 +171,10 @@ a:hover {
     width: 36px;
   }
 
+  .btn-navbar:hover .icon-bar {
+    background-color: #777;
+  }
+
  .nav-collapse .nav {
     display: none;
   }
