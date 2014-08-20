@@ -68,8 +68,10 @@ a:hover {
 }*/
 
 #portfolio {
-  padding: 3% 28%;
   text-align: center;
+  width: 424px;
+  margin: 2% auto;
+  padding-left: 35px;
 }
 
 .parallax-image-wrapper {
@@ -165,6 +167,13 @@ a:hover {
   margin: 0 50%;
 }
 
+@media screen and (min-width: 980px) {
+  #portfolio {
+    width: 437px;
+    padding-left: 50px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .name-plate {
     font-size: 1.8em;
@@ -192,5 +201,18 @@ a:hover {
     background-color: #333;
     margin-bottom: 4px;
     border-radius: 20px;
+  }
+
+  #portfolio {
+    width: 375px;
+    /*margin: 2% auto;*/
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #portfolio {
+    width: 233px;
+    padding-left: 18px;
   }
 }
